@@ -6,7 +6,7 @@ var currentHour = currentTime.getHours();
 var totalMinutes = currentMinute+(currentHour*60); // get total minutes
 var enneaMinute = totalMinutes/40; // mins are mod 40 not mod 60
 var enneaHour = 0; // each EnneaHour is 40 minutes in length
-var enneaLength = 40; // Length per of hour
+var enneaLength = 40; // Length per hour
 var hourLength = [0]; // Start array at position zero
 var enneagramType = ['Anger ', // Ego Vices
 					'Pride ', 
